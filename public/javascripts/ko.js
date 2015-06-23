@@ -9,8 +9,8 @@ var output = d.getFullYear()  +
     ((''+day).length<2 ? '0' : '') + day;
 $(function() {
 var viewModel = {
-    // Data
-    arrayoftip: ko.observableArray(),
+    // Data First
+    arrayoftip: ko.observableArray(), 
     update: function() {
         $.ajax({
             type: "GET",
